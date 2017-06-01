@@ -1,2 +1,4 @@
-# chapter1
+# lisp 7定律
+
+
 
