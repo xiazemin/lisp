@@ -26,7 +26,17 @@ C-c C-s 保存文件
 
 ![](/assets/importq.png)
 
+; SLIME 2011-02-04
 
+CL-USER&gt; \(load "/Users/didi/lisp/src/helloword.lsp"\)
 
+\#P"/Users/didi/lisp/src/helloword.lsp"
 
+CL-USER&gt; \(hello-world\)
+
+hello world
+
+NIL
+
+CL-USER&gt; 
 
