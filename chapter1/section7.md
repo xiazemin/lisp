@@ -54,6 +54,8 @@ swank 是LISP下的server，emacs中的slime模块通过tcp连接上swank服务�
 
 没错，SLIME就是这么用的。
 
+![](/assets/importl.png)
+
 1. 想获得更详细的在线文档？ 
 
 当我写下一个函数时，在emacs下面的minibuffer里会有一个简单的文档：
