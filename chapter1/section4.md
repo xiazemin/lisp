@@ -16,3 +16,5 @@ C-x C-f 输入目录可以创建文件,输入开头，底部会有提示
 
 ![](/assets/importe.png)
 
+C-c C-c 进行编译
+
