@@ -106,3 +106,9 @@ Inspect Package, show details
 
 SLDB 调试方面。
 
+要对中文支持需修改文件解压后的文件夹下的文件 emacs-23.2\site-lisp\lispbox.el
+
+在\(require 'slime\) 这一行的后面增加一行:
+
+\(setq slime-net-coding-system 'utf-8-unix\)
+
