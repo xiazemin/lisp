@@ -98,7 +98,7 @@ Emacs中的查找和替换
 
 几类查找的操作方法见下图：
 
-图4：Emacs的查找
+![](/assets/import4.png)
 
 图4：Emacs的查找
 
