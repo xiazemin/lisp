@@ -60,9 +60,7 @@ swank 是LISP下的server，emacs中的slime模块通过tcp连接上swank服务�
 
 当我写下一个函数时，在emacs下面的minibuffer里会有一个简单的文档：
 
-文档功能1
-
-文档功能1
+![](/assets/importm.png)
 
 但是，我不满足，想看看更详细的文档怎么办？用 slime-hyperspec-look 命令，我绑定到快捷键上了，一键即可在浏览器上打开详细的文档。
 
