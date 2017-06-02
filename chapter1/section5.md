@@ -12,7 +12,7 @@ C-x 3 在当前缓冲区右方新打开一个缓冲区
 
 对于自定义函数的宏 defun ，我们想查看它的源代码，想了解它的具体实现细节，可以把光标放在 defun 上，然后按 M-.
 
-M-.     同时按 Alt 键 和 点键 . 
+M-.     同时按 Alt 键 和 点键 .
 
 所有的文件操作函数（比如 load open等）默认的字符编码格式类型都是 :latin-1 ，这种编解码类型对应英文字符，遇到中文内容自然就乱码了。
 
@@ -48,5 +48,5 @@ CL-USER&gt; \*default-external-format\*
 
 :UTF-8
 
-
+说明：全局变量 \*default-external-format\* 在 CCL 和 CLisp 中可以用，但是在 SBCL 中不支持
 
