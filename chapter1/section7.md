@@ -74,29 +74,25 @@ swank 是LISP下的server，emacs中的slime模块通过tcp连接上swank服务�
 
 slime-list-callers
 
-xref
-
-xref
+![](/assets/import24.png)
 
 1. 想知道一行宏调用展开后是啥德行么？ 
 
 slime-macroexpand-1 \(all\)
 
-macroexpand
-
-macroexpand
+![](/assets/import25.png)
 
 1. 查看对象内部的值？ 
 
 slime-inspect
 
-Inspect Object
-
-Inspect Object
+![](/assets/import26.png)
 
 想知道一个package的信息？
 
 inspect package 即可
+
+![](/assets/import28.png)
 
 注意，里面列出的内容是可以点击的，回车可以看到更详细的信息，比如我们想知道那1个 external symbols 是什么：
 
@@ -108,5 +104,5 @@ Inspect Package, show details
 
 ==========
 
-SLDB 调试方面，请听下回分解。
+SLDB 调试方面。
 
