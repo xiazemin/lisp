@@ -6,5 +6,13 @@ CL-USER&gt;
 
 类似shell，read-eval-print-loop\(REPL\),形成交互环境
 
+CL-USER&gt; \(+ 2 3\)
+
+5
+
+lisp将列表的第一个元素视为函数名，后面的视为参数。
+
+
+
 
 
