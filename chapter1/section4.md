@@ -22,5 +22,11 @@ C-c C-z 进入repl环境
 
 C-c C-s 保存文件
 
+失败后会进入调试环境如图，输入q即可退出
+
+![](/assets/importq.png)
+
+
+
 
 
