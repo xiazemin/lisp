@@ -46,3 +46,5 @@ magit    玩转git    没有
 
 git-gutter.el    标记版本控制的diff\(支持subversion\)    没有
 
+－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
+
