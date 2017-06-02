@@ -1,6 +1,6 @@
 # 支持中文
 
-只需要修改 slime 目录（我的是 F:\lispbox-0.9\slime-2012-11-13\ ）下的 slime.el 文件中的键图映射代码，涉及4个命令：
+只需要修改 slime 目录（我的是 F:\lispbox-0.9\slime-2012-11-13 ）下的 slime.el 文件中的键图映射代码，涉及4个命令：
 
 slime-load-file
 
@@ -14,59 +14,63 @@ slime-compile-defun
 
 \(defvar slime-prefix-bindings
 
-  '\(\("\C-r"  slime-eval-region\)
+'\(\("\C-r"  slime-eval-region\)
 
-    \(":"     slime-interactive-eval\)
+```
+\(":"     slime-interactive-eval\)
 
-    \("\C-e"  slime-interactive-eval\)
+\("\C-e"  slime-interactive-eval\)
 
-    \("E"     slime-edit-value\)
+\("E"     slime-edit-value\)
 
-    \("\C-l"  slime-load-file :external-format :utf-8\)
+\("\C-l"  slime-load-file :external-format :utf-8\)
 
-    \("\C-b"  slime-interrupt\)
+\("\C-b"  slime-interrupt\)
 
-    \("\M-d"  slime-disassemble-symbol\)
+\("\M-d"  slime-disassemble-symbol\)
 
-    \("\C-t"  slime-toggle-trace-fdefinition\)
+\("\C-t"  slime-toggle-trace-fdefinition\)
 
-    \("I"     slime-inspect\)
+\("I"     slime-inspect\)
 
-    \("\C-xt" slime-list-threads\)
+\("\C-xt" slime-list-threads\)
 
-    \("\C-xn" slime-cycle-connections\)
+\("\C-xn" slime-cycle-connections\)
 
-    \("\C-xc" slime-list-connections\)
+\("\C-xc" slime-list-connections\)
 
-    \("&lt;"     slime-list-callers\)
+\("&lt;"     slime-list-callers\)
 
-    \("&gt;"     slime-list-callees\)
+\("&gt;"     slime-list-callees\)
 
-    ;; Include DOC keys...
+;; Include DOC keys...
 
-    \("\C-d"  slime-doc-map\)
+\("\C-d"  slime-doc-map\)
 
-    ;; Include XREF WHO-FOO keys...
+;; Include XREF WHO-FOO keys...
 
-    \("\C-w"  slime-who-map\)
+\("\C-w"  slime-who-map\)
 
-    \)\)
+\)\)
+```
 
 \(defvar slime-keys
 
-  '\( ;; Compiler notes
+'\( ;; Compiler notes
 
-    \("\M-p"       slime-previous-note\)
+```
+\("\M-p"       slime-previous-note\)
 
-    \("\M-n"       slime-next-note\)
+\("\M-n"       slime-next-note\)
 
-    \("\C-c\M-c"   slime-remove-notes\)
+\("\C-c\M-c"   slime-remove-notes\)
 
-    \("\C-c\C-k"   slime-compile-and-load-file :external-format :utf-8\)
+\("\C-c\C-k"   slime-compile-and-load-file :external-format :utf-8\)
 
-    \("\C-c\M-k"   slime-compile-file :external-format :utf-8\)
+\("\C-c\M-k"   slime-compile-file :external-format :utf-8\)
 
-    \("\C-c\C-c"   slime-compile-defun :external-format :utf-8\)\)\)
+\("\C-c\C-c"   slime-compile-defun :external-format :utf-8\)\)\)
+```
 
 如果是在EVAL下使用 load 函数，也需要加上额外的参数，如下所示：
 
