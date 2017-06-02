@@ -50,3 +50,15 @@ CL-USER&gt; \*default-external-format\*
 
 说明：全局变量 \*default-external-format\* 在 CCL 和 CLisp 中可以用，但是在 SBCL 中不支持
 
+C-c C-z 从代码编辑区切换到 REPL 区；
+
+C-c C-y 把正在编写的函数名称发送到 REPL 区进行调试；
+
+C-x o 从 REPL 区 切换到代码编辑区；
+
+M-p 在 REPL 区查找历史命令，向前翻页
+
+M-n 在 REPL 区查找历史命令，向后翻页
+
+M-. 同时按 Alt 键 和 点键 . ，查看当前光标所在位置的函数的
+
