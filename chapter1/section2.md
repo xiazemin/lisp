@@ -10,37 +10,39 @@ M-x my-command 表示同时按下Alt和X, 输入"my-command",然后回车
 
 以下是清单：
 
-名称	说明	同类插件
+名称    说明    同类插件
 
-Evil	将 Emacs变为Vim	没有
+－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
 
-Org	org-mode,全能的笔记工具	没有
+Evil    将 Emacs变为Vim    没有
 
-company-mode	自动完成输入,支持各种语言和后端	auto-complete
+Org    org-mode,全能的笔记工具    没有
 
-expand-region	快捷键选中文本,可将选择区域伸缩	没有
+company-mode    自动完成输入,支持各种语言和后端    auto-complete
 
-smex	让输入命令变得飞快	没有
+expand-region    快捷键选中文本,可将选择区域伸缩    没有
 
-yasnippet	强大的文本模板输入工具	没有
+smex    让输入命令变得飞快    没有
 
-flymake	对不同语言做语法检查	flycheck
+yasnippet    强大的文本模板输入工具    没有
 
-ivy or helm	自动完成,在其上有插件完成具体功能	ido
+flymake    对不同语言做语法检查    flycheck
 
-ido	和helm类似,helm和ido可同时用	helm
+ivy or helm    自动完成,在其上有插件完成具体功能    ido
 
-js2-mode	javascript的主模式,自带语法解释器	js-mode
+ido    和helm类似,helm和ido可同时用    helm
 
-w3m	网络浏览器\(需安装命令行工具w3m\)	Eww
+js2-mode    javascript的主模式,自带语法解释器    js-mode
 
-simple-httpd	Lisp 写的 Web 服务器	elnode
+w3m    网络浏览器\(需安装命令行工具w3m\)    Eww
 
-window-numbering.el	跳转到不同的子窗口	switch-window.el
+simple-httpd    Lisp 写的 Web 服务器    elnode
 
-web-mode	支持各种 HTML 文件	nxml-mode
+window-numbering.el    跳转到不同的子窗口    switch-window.el
 
-magit	玩转git	没有
+web-mode    支持各种 HTML 文件    nxml-mode
 
-git-gutter.el	标记版本控制的diff\(支持subversion\)	没有
+magit    玩转git    没有
+
+git-gutter.el    标记版本控制的diff\(支持subversion\)    没有
 
