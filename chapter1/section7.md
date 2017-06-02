@@ -68,6 +68,8 @@ swank 是LISP下的server，emacs中的slime模块通过tcp连接上swank服务�
 
 用 slime-dissassemble-definition
 
+![](/assets/import23.png)
+
 1. 想知道一个函数被谁引用过？ 
 
 slime-list-callers
