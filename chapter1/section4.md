@@ -20,3 +20,7 @@ C-c C-c 进行编译
 
 C-c C-z 进入repl环境
 
+C-c C-s 保存文件
+
+
+
