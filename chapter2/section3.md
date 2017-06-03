@@ -4,3 +4,5 @@ commonlisp支持词法（局部）变量和动态（全局）变量两种变量�
 
 ![](/assets/importx.png)
 
+setf 可以为任何位置赋值
+
