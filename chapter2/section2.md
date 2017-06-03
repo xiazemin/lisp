@@ -10,3 +10,11 @@ lisp最基本的三个部分是函数、变量、宏
 
 function可以返回函数对象，＃‘也一样
 
+（foo 1 2）＝（functioncall ＃‘foo 1 2）＝（apply foo （1 2））
+
+defun 定义函数 lambda定义匿名函数
+
+
+
+
+
